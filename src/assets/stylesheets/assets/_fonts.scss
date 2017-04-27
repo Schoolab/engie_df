@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'felt';
+  src: url( #{$font-path + 'FeltThat.ttf'});
+  font-style:   normal;
+}
+
+@font-face {
+  font-family: 'antipasto';
+  src: url( #{$font-path + 'Antipasto-RegularTrial.ttf'});
+  font-style:   normal;
+}
+
+@font-face {
+  font-family: 'antipasto-xlight';
+  src: url( #{$font-path + 'Antipasto-ExtraLightTrial.ttf'});
+  font-style:   normal;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Material+Icons');

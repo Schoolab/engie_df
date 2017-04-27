@@ -39,16 +39,26 @@
 4. MODULES
 ========================================================================== */
 // @import "modules/module";
+@import "modules/navbar";
+@import "modules/title-hero";
+@import "modules/hero";
 
 /* ==========================================================================
 5. LAYOUTS
 ========================================================================== */
 // @import "layouts/layout";
+@import "layouts/section-hero";
+@import "layouts/section-header";
+@import "layouts/section-explication";
+@import "layouts/section-problem";
+@import "layouts/section-questions";
+@import "layouts/section-avis-clients";
+@import "layouts/footer";
 
 /* ==========================================================================
 6. HELPERS
 ========================================================================== */
-// @import "helpers/helper";
+@import "helpers/positions";
 
 /* ==========================================================================
 7. THEMES

@@ -1,7 +1,43 @@
 .footer-home{
   width: 100%;
   height: auto;
-  padding: 10em;
-  background-image: url("../img/bg-footer.png");
-  background-size: cover;
+  padding-top: 2em;
+  background-color: #262626;
+}
+
+.logo-footer{
+  display: block;
+  margin: auto;
+  max-width: 20%;
+  max-height: 20%;
+  padding-bottom: 3em;
+}
+
+.reseaux{
+  padding: 1em;
+  text-align: center;
+}
+
+.reseaux p {
+  font-family: 'antipasto';
+  color: $white;
+}
+.copyright {
+  display: block;
+  text-align: center;
+  padding-top: 3em;
+}
+
+.copyright p{
+  font-family: 'myriad';
+  display: inline-block;
+  color: #5a5a5a;
+}
+
+.copyright a{
+  outline: none !important;
+}
+
+.bg-style{
+  background-color: #5A5A5A;
 }

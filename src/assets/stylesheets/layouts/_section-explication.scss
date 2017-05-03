@@ -1,5 +1,114 @@
 .section-explication{
   width: 100%;
-  padding: 4em;
+  padding: 2em;
   background-color: #f8f4f0;
+}
+
+.title-explication h2 {
+  color: #5d5d5d;
+  font-family: 'antipasto';
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+.div-explication-ico{
+  display: flex;
+  padding: 0.5em;
+}
+
+.div-explication-text{
+  display: flex;
+  padding: 0.5em;
+}
+
+.utilisateurs p {
+  text-align: center;
+  font-family: 'antipasto';
+  font-size: 1.3em;
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+.utilisateurs p:nth-child(1) {
+  font-weight: bold;
+  color: orange;
+  font-family: 'myriad-it';
+  font-size: 1.3em;
+}
+
+.conseils p {
+  text-align: center;
+  font-family: 'antipasto';
+  font-size: 1.3em;
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+.conseils p:nth-child(1){
+  font-weight: bold;
+  color: orange;
+  font-family: 'myriad-it';
+  font-size: 1.3em;
+}
+
+.eco-moy p {
+  text-align: center;
+  font-family: 'antipasto';
+  font-size: 1.3em;
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+.eco-moy p:nth-child(1) {
+  font-weight: bold;
+  color: orange;
+  font-family: 'myriad-it';
+  font-size: 1.3em;
+}
+
+.eco-max p {
+  text-align: center;
+  font-family: 'antipasto';
+  font-size: 1.3em;
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+.eco-max p:nth-child(1) {
+  font-weight: bold;
+  color: orange;
+  font-family: 'myriad-it';
+  font-size: 1.3em;
+}
+
+.ico{
+  max-width: 100px;
+  max-height: 130px;
+  display: block;
+  margin: auto;
+}
+
+.round-design{
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: #292b2c;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  position:relative;
+  top:0;
+  bottom:0;
+}
+
+.line-design{
+  width: 10%;
+  height: 2px;
+  background-color: #292b2c;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: 3em;
 }

@@ -131,7 +131,7 @@ gulp.task('browserSync', function() {
     // Open the first browser window at URL + "/info.php"
     startPath: null,
     // Choose in wich browser open the project
-    browser: ["google chrome"],
+    browser: ["Chrome"],
     // Browsersync includes a user-interface that is accessed via a separate port.
     // The UI allows to controls all devices, push sync updates and much more.
     ui: {

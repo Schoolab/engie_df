@@ -1,5 +1,35 @@
 .section-problem{
   width: 100%;
-  padding: 4em;
+  padding: 2em;
   background-color: $white;
+}
+
+.title-problem h2 {
+  color: orange;
+  font-family: 'antipasto';
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-savoir p{
+  font-family: "myriad";
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.question p {
+  font-family: "myriad";
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.liens-docs a{
+  font-family: "myriad";
+  display: block;
+  text-align: center;
+  color: #5a5a5a;
+}
+
+.button-questions{
+  padding-top: 2em;
 }

@@ -1,6 +1,26 @@
 .section-avis-clients{
   width: 100%;
+  height: auto;
+  padding: 2em;
   background-image: url("../img/fond-avis-clients.png");
-  background-size: cover;
-  padding: 10em;
+}
+
+.img-avatar{
+  display: block;
+  margin: auto;
+}
+
+.avis-laura p{
+  color: #5a5a5a;
+  font-family: 'myriad-it';
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.nom-client p{
+  color: #5a5a5a;
+  font-family: 'antipasto';
+  font-style: italic;
+  text-align: center;
+  padding-top: 3em;
 }

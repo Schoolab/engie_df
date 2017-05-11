@@ -1,0 +1,49 @@
+.compteur {
+  width: 100%;
+  height:5em;
+  background: linear-gradient(-180deg, #1d1d1b 0%, #5b5a5a 25%, #1d1d1b 60%, #1d1d1b 100%);
+  border: 1px solid $black;
+  display: flex;
+  align-items: center;
+}
+
+.compteur .compteur-prix:first-child {
+  margin-left: 1.5%;
+  border-right: none;
+}
+
+.compteur .compteur-prix:nth-child(2) {
+  border-right: none;
+}
+
+.compteur-prix {
+  width: 25%;
+  height: 95%;
+  background: linear-gradient(-180deg, #1d1d1b 10%, #5b5a5a 25%, #1d1d1b 90%, #1d1d1b 100%);
+  border: 1px solid $black;
+  display: flex;
+  align-items: center;
+}
+
+.compteur-prix h1{
+  display: block;
+  font-family: 'proxima-nova';
+  margin: auto;
+  color: $white;
+  font-size: 3.5em;
+}
+
+.compteur-monnaie {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.compteur-monnaie h1{
+  display: block;
+  font-family: 'proxima-nova';
+  margin: auto;
+  color: $white;
+  font-size: 3.5em;
+}

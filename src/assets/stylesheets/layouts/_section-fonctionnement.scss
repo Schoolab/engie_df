@@ -1,0 +1,104 @@
+.section-fonctionnement {
+  background-color: $white;
+  padding: 2em;
+}
+
+.explication-fonctionnement {
+  display: flex;
+  padding-top: 2.5em;
+}
+
+.first-fonctionnement {
+  background-image: url("../img/first-fonctionnement.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height:9em;
+  display: flex;
+  align-items: center;
+}
+
+.first-fonctionnement h1 {
+  font-family: 'felt';
+  color: $orange;
+  font-size: 6em;
+}
+
+.second-fonctionnement {
+  background-image: url("../img/second-fonctionnement.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height:9em;
+  display: flex;
+  align-items: center;
+}
+
+.second-fonctionnement h1 {
+  font-family: 'felt';
+  color: $orange;
+  font-size: 6em;
+}
+
+.third-fonctionnement {
+  background-image: url("../img/third-fonctionnement.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height:9em;
+  display: flex;
+  align-items: center;
+}
+
+.third-fonctionnement h1 {
+  font-family: 'felt';
+  color: $orange;
+  font-size: 6em;
+}
+
+.text-fonctionnement {
+  display: flex;
+}
+
+.text-fonctionnement p {
+  font-family: 'proxima-nova';
+  font-size: 1.1em;
+  padding-bottom: 2em;
+}
+
+.img-fonctionnement img{
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+
+.img-fonctionnement p{
+  font-family: 'proxima-nova';
+  font-size: 1.5em;
+}
+
+.img-fonctionnement{
+  width: 20%;
+  padding: 2em;
+}
+
+.fonctionnement {
+  display: flex;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 4px;
+    height: 15px;
+    width: 15px;
+    background: none;
+    border: 2px solid black;
+    margin-top: 1.5em;
+    outline: none;
+}
+
+input[type=checkbox]:checked{
+  background: orange;
+}

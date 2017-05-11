@@ -5,7 +5,7 @@
 }
 
 .title-problem h2 {
-  color: orange;
+  color: #F2971B;
   font-family: 'antipasto';
   text-align: center;
   font-weight: bold;
@@ -28,6 +28,10 @@
   display: block;
   text-align: center;
   color: #5a5a5a;
+}
+
+.liens-docs a:last-child {
+  padding-bottom: 2em;
 }
 
 .button-questions{

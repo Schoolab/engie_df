@@ -2,8 +2,41 @@
   font-family: 'felt';
   font-size: 4em;
   color: #f19d29;
+  padding-bottom: 0.3em;
 }
 
 .subtitle-hero{
   font-family: 'antipasto-xlight';
+}
+
+.text-subtitle h2:first-child {
+  font-size-adjust: auto;
+  font-family: 'proxima-nova';
+  color: $white;
+  padding-top: 1em;
+}
+
+.text-subtitle h2:nth-child(2) {
+  font-size-adjust: auto;
+  font-family: 'proxima-nova';
+  color: $white;
+  padding-bottom: 1em;
+}
+
+.title-fonctionnement h2 {
+  font-family: 'proxima-nova';
+  font-weight: bold;
+  color: $orange;
+}
+
+.subtitle-fonctionnement h2 {
+  font-family: 'proxima-nova';
+  font-weight: bold;
+  color: $orange;
+}
+
+.subtitle-fonctionnement p {
+  font-family: 'proxima-nova';
+  font-weight: bold;
+  padding-bottom: 1.5em;
 }

@@ -1,0 +1,36 @@
+.button-hero {
+  background-color: $orange;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+
+  &:hover{
+    background-color: $orange;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  &:focus{
+    box-shadow: none;
+  }
+}
+
+.buttons {
+  background-color: transparent;
+  color: $orange;
+  border-radius: 0;
+  border: 2px solid $orange;
+  text-transform: uppercase;
+  margin-top: 2em;
+
+  &:hover{
+    background-color: $orange;
+    border: 2px solid $orange;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  &:focus{
+    box-shadow: none;
+  }
+}

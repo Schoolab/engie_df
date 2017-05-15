@@ -17,3 +17,10 @@
 .text-explication-home-page {
   display: flex;
 }
+
+.text-explication-home-page p {
+  color: $white;
+  font-family: 'myriad';
+  font-weight: bold;
+  padding: 2em;
+}

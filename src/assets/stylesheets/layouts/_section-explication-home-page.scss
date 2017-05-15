@@ -2,3 +2,18 @@
   background-color: $orange;
   padding: 2em;
 }
+
+.explication-home-page {
+  display: flex;
+}
+
+.explication-home-page img {
+  max-width: 100px;
+  max-height: 130px;
+  display: block;
+  margin: auto;
+}
+
+.text-explication-home-page {
+  display: flex;
+}

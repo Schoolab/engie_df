@@ -40,3 +40,48 @@
   font-weight: bold;
   padding-bottom: 1.5em;
 }
+
+.title-header-home-page p:first-child {
+  font-family: 'antipasto';
+  font-size: 1.1em;
+  padding-top: 1.2em;
+}
+
+.title-header-home-page p:last-child {
+  font-family: 'antipasto';
+  font-size: 1.1em;
+  padding-bottom: 1.2em;
+}
+
+.categories-title p:first-child {
+  font-family: 'antipasto';
+  font-weight: bold;
+  font-size: 1.5em;
+  color: $white;
+}
+
+.categories-title p:nth-child(2) {
+  font-family: 'antipasto';
+  font-size: 1.5em;
+  color: $white;
+  padding-bottom: 1.1em;
+}
+
+.title-choix-fute h2 {
+  font-family: "antipasto";
+  text-transform: uppercase;
+  color: $black;
+}
+
+.title-explication-home-page h2 {
+  font-family: "antipasto";
+  text-transform: uppercase;
+  color: $white;
+}
+
+.title-options-home-page h2 {
+  font-family: "antipasto";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $orange;
+}

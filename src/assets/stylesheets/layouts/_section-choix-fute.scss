@@ -2,3 +2,17 @@
   background-color: #f8f4f0;
   padding: 2em;
 }
+
+.choix-fute {
+  display: flex;
+}
+
+.choix-img {
+  width: 20%;
+  height: auto;
+}
+
+.choix-img img {
+  max-width: 140px;
+  max-height: 140px;
+}

@@ -42,34 +42,34 @@
 }
 
 .title-header-home-page {
-  background: rgba(355, 355, 355, 0.1);
+  background: rgba(355, 355, 355, 0.5);
   padding: 2em 0;
   margin-top: 2.5em;
 }
 
 .title-header-home-page p:first-child {
   font-family: 'antipasto';
-  color: $white;
+  color: #5a5a5a;
   font-size: 1.6em;
 }
 
 .title-header-home-page p:last-child {
   font-family: 'antipasto';
-  color: $white;
+  color: #5a5a5a;
   font-size: 1.6em;
 }
 
 .categories-title p:first-child {
   font-family: 'antipasto-xlight';
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.9em;
   color: $white;
   padding-top: 2.5em;
 }
 
 .categories-title p:nth-child(2) {
   font-family: 'antipasto-xlight';
-  font-size: 1.5em;
+  font-size: 1.9em;
   color: $white;
   padding-bottom: 1.1em;
 }

@@ -22,6 +22,11 @@
   font-family: 'antipasto';
   color: $white;
 }
+
+.reseaux img {
+  padding: 0.4em;
+}
+
 .copyright {
   display: block;
   text-align: center;
@@ -29,9 +34,9 @@
 }
 
 .copyright p{
-  font-family: 'myriad';
+  font-family: 'antipasto-xlight';
   display: inline-block;
-  color: #5a5a5a;
+  color: $white;
 }
 
 .copyright a{

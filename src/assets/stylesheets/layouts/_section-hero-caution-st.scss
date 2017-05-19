@@ -1,7 +1,12 @@
-.section-hero-caution-st {
+.hero-caution-st {
   width: 100%;
   height: 50vh;
-  background-image: url("../img/bg-categories.png");
+  background-image: url("../img/bg-home-p.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-hero-caution-st {
+  display: flex;
+  align-items: center;
 }

@@ -2,3 +2,25 @@
   background-color: $orange;
   padding: 2em;
 }
+
+.div-sols {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.sous-theme-sols {
+  width: 25%;
+  height: auto;
+  padding-top: 2.5em;
+}
+
+.sous-theme-sols p {
+  font-family: 'antipasto';
+  font-size: 1.5em;
+  color: $white;
+}
+
+.sous-theme-sols img {
+
+}

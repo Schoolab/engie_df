@@ -1,25 +1,66 @@
 .section-sanitaires-cuisine-st {
   background-color: #f8f4f0;
-  padding: 2em;
+  padding: 4em;
 }
 
-.div-sanitaire {
-  width: 100%;
-  height: auto;
+.sanitaire-cuisine {
   display: flex;
 }
 
-.sous-theme-sanitaire {
-  width: 17%;
-  height: auto;
-  padding-top: 2.5em;
+.cuisine-st {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
-.sous-theme-sanitaire p {
-  font-family: 'antipasto';
-  font-size: 1.5em;
+.content-cuisine {
+  text-align: left;
+
+  h2 {
+    font-family: 'antipasto';
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem 0;
+  }
+
+  img {
+
+  }
+
+  p {
+    font-family: 'antipasto';
+    font-size: 1.3rem;
+    &:last-child {
+      font-family: 'antipasto';
+      font-size: 1.3rem;
+      color: #777;
+    }
+  }
 }
 
-.sous-theme-sanitaire img {
+input.input-st {
+  margin: 0;
+}
 
+.liste-st-cuisine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  li {
+    padding: 0.4rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    display: inline-block;
+    padding: 0 1.2rem;
+    font-family: 'antipasto';
+    font-size: 1.3rem;
+  }
 }

@@ -1,22 +1,25 @@
 section.section.section-sols-st
-  .conatiner
+  .container
     .row
-      .col.col-md-6.offset-md-3.txt-c.title-sols-st
-         h2 Les sols
-  .div-sols
-    .sous-theme-sols.txt-c
-      p Moquettes sales
-      img(src="" alt="Moquettes sales")
-      input(type="checkbox")
-    .sous-theme-sols.txt-c
-      p Peintures sales/abimés
-      img(src="" alt="Peintures sales/abimés")
-      input(type="checkbox")
-    .sous-theme-sols.txt-c
-      p Sols en PVC sales
-      img(src="" alt="Sols en PVC sales")
-      input(type="checkbox")
-    .sous-theme-sols.txt-c
-      p Carrelage cassé
-      img(src="" alt="Carrelage cassé")
-      input(type="checkbox")
+      .col.col-md-8.offset-md-2.sols
+        .row
+          .col.col-md-6.txt-c.sols-st
+            .content-sols
+               img(src="" alt="sols")
+               h2 Les sols
+               p Le sols est abimés ? voici nos sous thèmes pour vous aider !
+               p.m-auto Selectionnez les sous thèmes où vous rencontrez un problème.
+          .col.col-md-4.offset-md-1.liste-st-sols
+            ul 
+              li
+                input.input-st(type="checkbox")
+                p Moquettes sales
+              li 
+                input.input-st(type="checkbox")
+                p Parquets sales
+              li 
+                input.input-st(type="checkbox")
+                p Sols en PVC sales 
+              li 
+                input.input-st(type="checkbox")
+                p Carrelage cassé

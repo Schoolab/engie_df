@@ -1,27 +1,25 @@
 section.section.section-meubles-electromenagers-st
-  .conatiner
+  .container
     .row
-      .col.col-md-6.offset-md-3.txt-c.title-meubles-st
-         h2 Meubles / Electroménagers 
-  .div-meubles
-    .sous-theme-meubles.txt-c
-      p Meubles en bois abimés
-      img(src="" alt="Meubles en bois abimés")
-      input(type="checkbox")
-    .sous-theme-meubles.txt-c
-      p Electroménagers en mauvais état
-      img(src="" alt="Electroménagers en mauvais état")
-      input(type="checkbox")
-    .sous-theme-meubles.txt-c
-      p Canapé/fauteuil en mauvais état
-      img(src="" alt="Canapé/fauteuil en mauvais état")
-      input(type="checkbox")
-    .sous-theme-meubles.txt-c
-      p Literie en mauvais état
-      img(src="" alt="Literie en mauvais état")
-      input(type="checkbox")
-    .sous-theme-meubles.txt-c
-      //- à griser
-      p Vaisselles
-      img(src="" alt="Vaisselles")
-      input(type="checkbox")
+      .col.col-md-8.offset-md-2.meubles
+        .row
+          .col.col-md-6.txt-c.meubles-st
+            .content-meubles
+               img(src="" alt="meubles et electromenagers")
+               h2 Meubles et électroménager
+               p L'electroménager où les meubles sont abimés ? voici nos sous thèmes pour vous aider !
+               p.m-auto Selectionnez les sous thèmes où vous rencontrez un problème.
+          .col.col-md-4.offset-md-1.liste-st-meubles
+            ul 
+              li
+                input.input-st(type="checkbox")
+                p Meubles en bois
+              li 
+                input.input-st(type="checkbox")
+                p Electroménager
+              li 
+                input.input-st(type="checkbox")
+                p Canapé/Fautueil
+              li 
+                input.input-st(type="checkbox")
+                p Literie

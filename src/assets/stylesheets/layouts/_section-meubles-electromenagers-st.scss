@@ -1,25 +1,66 @@
 .section-meubles-electromenagers-st {
   background-color: $white;
-  padding: 2em;
+  padding: 4em;
 }
 
-.div-meubles {
-  width: 100%;
-  height: auto;
+.sanitaire-meubles {
   display: flex;
 }
 
-.sous-theme-meubles {
-  width: 20%;
-  height: auto;
-  padding-top: 2.5em;
+.meubles-st {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
-.sous-theme-meubles p {
-  font-family: 'antipasto';
-  font-size: 1.5em;
+.content-meubles {
+  text-align: left;
+
+  h2 {
+    font-family: 'antipasto';
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem 0;
+  }
+
+  img {
+
+  }
+
+  p {
+    font-family: 'antipasto';
+    font-size: 1.3rem;
+    &:last-child {
+      font-family: 'antipasto';
+      font-size: 1.3rem;
+      color: #777;
+    }
+  }
 }
 
-.sous-theme-meubles img {
+input.input-st {
+  margin: 0;
+}
 
+.liste-st-meubles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  li {
+    padding: 0.4rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    display: inline-block;
+    padding: 0 1.2rem;
+    font-family: 'antipasto';
+    font-size: 1.3rem;
+  }
 }

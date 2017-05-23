@@ -64,6 +64,13 @@ gulp.task('copy:vendors', function() {
     .pipe(browserSync.stream())
 });
 
+// Copy medias
+gulp.task('copy:medias', function() {
+  return gulp.src(src + 'assets/medias/**/*')
+    .pipe(gulp.dest(dist + 'medias'))
+    .pipe(browserSync.stream())
+});
+
 // Copy images
 gulp.task('copy:images', function() {
   return gulp.src(src + 'assets/images/**/*.{png,jpg,jpeg,gif,svg}')
@@ -94,7 +101,7 @@ gulp.task('copy:fonts', function() {
 
 // Clean folders
 gulp.task('clean', function() {
-  return del.sync([dist + 'css/**/*', dist + 'js/**/*', dist + 'img/**/*', dist + 'videos/**/*'])
+  return del.sync([dist + 'css/**/*', dist + 'js/**/*', dist + 'img/**/*', dist + 'videos/**/*', dist + 'medias/**/*'])
 });
 
 // Watch Files For Changes
@@ -116,6 +123,9 @@ gulp.task('watch', ['clean', 'build', 'browserSync'], function () {
   });
   watch('src/assets/videos/subtitles/**/*', function() {
     gulp.start('copy:subtitles');
+  });
+  watch('src/assets/medias/**/*', function() {
+    gulp.start('copy:medias');
   });
   watch('src/views/**/*.pug', function() {
     gulp.start('pug');
@@ -165,5 +175,5 @@ gulp.task('browserSync', function() {
 
 // Default Task
 gulp.task('build', ['pug', 'sass', 'scripts', 'copy']);
-gulp.task('copy', ['clean', 'copy:images', 'copy:videos', 'copy:subtitles', 'copy:fonts']);
+gulp.task('copy', ['clean', 'copy:images', 'copy:videos', 'copy:subtitles', 'copy:fonts', 'copy:medias']);
 gulp.task('default', ['watch']);

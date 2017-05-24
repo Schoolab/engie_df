@@ -25,7 +25,7 @@
   }
 
   img {
-
+    border-radius: 3px;
   }
 
   p {
@@ -37,10 +37,6 @@
       color: rgba($black, .5);
     }
   }
-}
-
-input.input-st {
-  margin: 0;
 }
 
 .liste-st-sols {

@@ -70,6 +70,7 @@
   display: block;
   max-width: 50%;
   margin: auto;
+  padding-bottom: 1.5rem;
 }
 
 .img-fonctionnement p{
@@ -87,15 +88,8 @@
 }
 
 input[type=checkbox] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    border-radius: 4px;
     height: 15px;
     width: 15px;
-    background: none;
-    border: 2px solid black;
-    margin-top: 1.5em;
     outline: none;
 }
 

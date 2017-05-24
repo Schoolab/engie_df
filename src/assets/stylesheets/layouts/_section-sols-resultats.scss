@@ -1,4 +1,29 @@
 .section-sols-resultats {
   padding: 4em;
-  background-color: $orange;
+  background-color: $white;
+}
+
+.content-sols-resultats {
+  img {
+    width: 100%;
+    height: 64px;
+  }
+
+  h2 {
+    font-family: 'antipasto';
+    font-size: 2rem;
+    padding: 1.5rem 0;
+  }
+
+  h3 {
+    font-family: 'antipasto';
+    font-size: 1.5rem;
+    padding: 0.8rem 0;
+  }
+
+  p {
+    font-family: 'antipasto';
+    font-size: 1.1rem;
+    padding-bottom: 0.8rem;
+  }
 }

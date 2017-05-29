@@ -1,14 +1,20 @@
 .section-hero-resultats {
   width: 100%;
   height:auto;
-  padding: 2rem 0;
+  padding: 1rem 0;
   background-image: url("../img/bg-cover.png");
+  background-position: center;
+}
+
+.section-hero-resultats img {
+  padding: 0 2em;
 }
 
 .title-hero-resultats h2 {
   font-family: "felt";
   font-size: 4em;
   color: $orange;
+  padding-top: 3rem;
 }
 
 .schema-economie {
@@ -43,4 +49,8 @@
   //   height: 3rem;
   //   background-color: red;
   // }
+}
+
+.button-res {
+  margin-bottom: 3rem;
 }

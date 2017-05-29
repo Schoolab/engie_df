@@ -61,3 +61,23 @@
     font-size: 1.3rem;
   }
 }
+
+.content-produits {
+  display: flex;
+
+
+  .infor {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #a5a5fd;
+    margin: 1.2rem 0.5rem;
+  }
+
+  p {
+    font-family: normal;
+    color: $white;
+    text-align: center;
+    cursor: pointer;
+  }
+}

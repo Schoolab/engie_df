@@ -6,9 +6,24 @@ section.section.section-hero-home-page
       .col.col-md-12.txt-c.title-header-home-page
         p Déménager, ça coûte toujours plus cher que prévu !
         p Avec Déménageur Futé, sauvez votre budget et faites des économies sur votre déménagement.
-      .col.col-md-12.caroussel
-        .col.col-md-8.offset-md-2.categories-title.txt-c
-          p Récupérer votre caution
-          p Vos conseils personnalisés et gratuits en une minute chrono.
-          a(href="caution.html")
-            button.btn.button-hero Sauver ma caution
+      .col.col-md-12.caroussel.m-auto
+        #carouselheader.carousel.slide(data-ride='carousel')
+          .carousel-inner(role='listbox')
+            .carousel-item.active
+              .col.col-md-8.offset-md-2.categories-title.txt-c
+                p Récupérer votre caution
+                p Vos conseils personnalisés et gratuits en une minute chrono.
+                a(href="caution.html")
+                  button.btn.button-hero Sauver ma caution
+            .carousel-item
+              .col.col-md-8.offset-md-2.categories-title.txt-c
+                p Récupérer votre caution
+                p Vos conseils personnalisés et gratuits en une minute chrono.
+                a(href="caution.html")
+                  button.btn.button-hero Sauver ma caution
+          a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.sr-only Previous
+          a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.sr-only Next

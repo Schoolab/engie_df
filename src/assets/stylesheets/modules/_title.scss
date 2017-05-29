@@ -42,27 +42,21 @@
   padding-bottom: 2.5rem;
 }
 
-.title-header-home-page {
-  background: rgba(355, 355, 355, 0.5);
-  padding: 2em 0;
-  margin-top: 2.5em;
-}
-
 .title-header-home-page p:first-child {
   font-family: 'antipasto';
-  color: #5a5a5a;
-  font-size: 1.6em;
+  color: $orange;
+  padding-top: 2em;
+  font-size: 1.9em;
 }
 
 .title-header-home-page p:last-child {
-  font-family: 'antipasto';
-  color: #5a5a5a;
+  font-family: 'antipasto-xlight';
+  color: $white;
   font-size: 1.6em;
 }
 
 .categories-title p:first-child {
-  font-family: 'antipasto-xlight';
-  font-weight: bold;
+  font-family: 'antipasto';
   font-size: 1.9em;
   color: $white;
   padding-top: 2.5em;
@@ -70,7 +64,7 @@
 
 .categories-title p:nth-child(2) {
   font-family: 'antipasto-xlight';
-  font-size: 1.9em;
+  font-size: 1.3em;
   color: $white;
   padding-bottom: 1.1em;
 }

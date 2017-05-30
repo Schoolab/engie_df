@@ -15,9 +15,9 @@
 }
 
 .choix-img img {
-  max-width: 200px;
-  max-height: 200px;
-  padding-top: 2em;
+  max-width: 150px;
+  border-radius: 100%;
+  filter:blur($black);
 }
 
 .choix-img p {

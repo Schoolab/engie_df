@@ -69,14 +69,18 @@
       height: 0;
       position: absolute;
       top:0;
-      left:-2em;
+      left:0;
       border-top: 20px solid transparent;
       border-bottom: 20px solid transparent;
       border-right:20px solid #09c;
       z-index: 1000;
     }
     p {
+      font-family: "antipasto";
+      font-size: 0.9em;
+      text-align:left;
       color: $black;
+      padding: 0.9em;
     }
   }
 }

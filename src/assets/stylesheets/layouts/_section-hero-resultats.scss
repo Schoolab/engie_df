@@ -14,43 +14,23 @@
   font-family: "felt";
   font-size: 4em;
   color: $orange;
-  padding-top: 3rem;
+  padding: 3rem 0;
 }
 
-.schema-economie {
-  display: inline-block;
-}
-
-.schema-economie h3 {
-  font-family: "antipasto";
-  font-size: 1.5em;
-  color: $white;
-  position: relative;
-
-  &:first-child {
-    margin-top: 2em;
+.content-conseils {
+  h3 {
+    font-family: "antipasto";
+    font-size: 1.5em;
+    color: $white;
   }
 
-  &:nth-child(2) {
-    margin: 0.6em 0;
+  h2 {
+    font-family: "antipasto";
+    font-size: 1.8em;
+    color: $orange;
   }
-
-  &:last-child {
-    margin-bottom: 2em;
-  }
-
-  // &:before {
-  //   content:'';
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   border-radius: 50%;
-  //   width: 3rem;
-  //   height: 3rem;
-  //   background-color: red;
-  // }
 }
 
 .button-res {
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }

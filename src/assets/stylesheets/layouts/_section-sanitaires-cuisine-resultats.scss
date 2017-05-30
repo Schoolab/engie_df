@@ -35,7 +35,7 @@
 
 .content-produits {
   display: flex;
-
+  position: relative;
 
   .infor {
     width: 20px;
@@ -55,22 +55,28 @@
     cursor: pointer;
   }
 
-  a span{
-     position:absolute;
-     margin-top:23px;
-     margin-left:-35px;
-     color:#09c;
-     background:rgba(0,0,0,.9);
-     padding:15px;
-     border-radius:3px;
-     box-shadow:0 0 2px rgba(0,0,0,.5);
-     transform:scale(0) rotate(-12deg);
-     transition:all .25s;
-     opacity:0;
-  }
-
-  a:hover span, a:focus span{
-     transform:scale(1) rotate(0);
-     opacity:1;
+  .content-infor {
+    width: 300px;
+    height: 150px;
+    margin-left: 21em;
+    background-color: $white;
+    border: 3px solid #09c;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1000;
+    &:before {
+      width: 0;
+      height: 0;
+      position: absolute;
+      top:0;
+      left:-2em;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-right:20px solid #09c;
+      z-index: 1000;
+    }
+    p {
+      color: $black;
+    }
   }
 }

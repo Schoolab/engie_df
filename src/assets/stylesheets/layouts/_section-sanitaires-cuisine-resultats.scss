@@ -65,14 +65,15 @@
     position: absolute;
     z-index: 1000;
     &:before {
+      content:"";
       width: 0;
       height: 0;
       position: absolute;
-      top:0;
-      left:0;
-      border-top: 20px solid transparent;
-      border-bottom: 20px solid transparent;
-      border-right:20px solid #09c;
+      top:9px;
+      left:-20px;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-right:20px solid $orange;
       z-index: 1000;
     }
     p {

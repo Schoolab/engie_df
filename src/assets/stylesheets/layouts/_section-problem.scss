@@ -35,5 +35,41 @@
 }
 
 .button-questions{
-  padding-top: 2em;
+  padding: 2em;
+}
+
+.content-docs {
+  padding: 2em 0;
+  transition: width 2s;
+  a {
+    text-decoration: none;
+    color: none;
+  }
+}
+
+.docs-block {
+  width: 85%;
+  height: auto;
+  padding: 4em 2em;
+  background-color: #f8f4f0;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px #f8f4f0;
+  display: block;
+  align-items: center;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  h2 {
+    font-family: "antipasto";
+    font-size: 2em;
+    color: $orange;
+    text-decoration: none;
+  }
+
+  img {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
 }

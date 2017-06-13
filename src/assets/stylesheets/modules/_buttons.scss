@@ -48,3 +48,16 @@
   border: none;
   color: transparent;
 }
+
+.button-modal-close {
+  margin: 0;
+  &:hover {
+    background-color: $white;
+    color: $orange;
+    opacity: 0.6;
+  }
+}
+
+.button-modal {
+  border: 2px solid $orange;
+}

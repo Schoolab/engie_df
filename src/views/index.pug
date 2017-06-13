@@ -9,3 +9,23 @@ block content
   include ./layouts/explication-home-page.pug
   include ./layouts/options-home-page.pug
   include ./layouts/avis-clients.pug
+  
+  // Button trigger modal
+  button.btn.btn-primary(type='button', data-toggle='modal', data-target='#myModal')
+    | Launch demo modal
+  // Modal
+  #myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+    .modal-dialog(role='document')
+      .modal-content
+        .modal-header
+          h5 Recevez les codes promos !
+          button.close(type='button', data-dismiss='modal', aria-label='Close')
+            span(aria-hidden='true') ×
+        .modal-body
+          .form-group
+            label(for='exampleInputEmail1') adresse e-mail
+            input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Enter email')
+            small#emailHelp.form-text.text-muted Cet e-mail ne sera en aucun utilisé à des fins publicitaires.
+        .modal-footer
+          button.btn.btn-secondary.buttons.button-modal-close(type='button', data-dismiss='modal') Fermer
+          button.btn.btn-primary.button-hero.button-modal(type='button') Enregistrer

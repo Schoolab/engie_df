@@ -9,7 +9,7 @@
 
 // Core variables and mixins
 @import "bootstrap-variables"; // overiding some vars
-// @import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/custom";
 
@@ -48,7 +48,7 @@
 @import "../../../node_modules/bootstrap/scss/close";
 
 // Components w/ JavaScript
-// @import "../../../node_modules/bootstrap/scss/modal";
+@import "../../../node_modules/bootstrap/scss/modal";
 // @import "../../../node_modules/bootstrap/scss/tooltip";
 // @import "../../../node_modules/bootstrap/scss/popover";
 @import "../../../node_modules/bootstrap/scss/carousel";
